@@ -11,6 +11,7 @@ The first Google Colab Setback was that I couldn't use my webcam directly via my
 The second being, uploading the model and label is a must while running the Colab file and it stays only for the session.
 
 There are 5 files in the zip named "FRAS_Colab.ipynb", "FRAS.py", "oldFRAS.py", "celebrity&empty.h5" and "celebrity&empty.txt", which are explained below:
+
 	1) FRAS_Colab.ipynb: 	Code file. Most RECOMMENDED way of running this file in Google Colab. Webcam Access Required to click an Image
 	2) FRAS_Colab_Upload: 	Code file. RECOMMENDED if you want to upload an image to check instead of clicking an image through webcam.
 	3) OldFRAS.py: 	Code file that I used during the Project. If you are lucky, it will run without Google Colab. It will access your webcam, click an image and process it.
@@ -22,6 +23,7 @@ Running "FRAS_Colab.ipynb":
 ___________________________
 
 Step by step guide:
+
 	1) Go to https://colab.research.google.com/
 	2) Sign in with Google account
 	3) After Signing in, select "New Notebook" option
@@ -40,6 +42,7 @@ Running "FRAS_Colab_Upload.ipynb":
 ___________________________
 
 Step by step guide:
+
 	1) Go to https://colab.research.google.com/
 	2) Sign in with Google account
 	3) After Signing in, select "New Notebook" option
@@ -57,6 +60,7 @@ Running OldFras.py:
 ___________________
 
 Step by step guide:
+
 	1) Make sure you have Python 3.7 in your system.
 	2) Open cmd and run "pip install tensorflow keras pillow image opencv-python" to download required packages.
 	3) Extract my zip in a folder and open "OldFRAS.py" using any IDE and Run the program.
