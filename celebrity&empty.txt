@@ -1,0 +1,21 @@
+0 Ajay Devgn
+1 Akshay Kumar
+2 Amitabh Bachchan
+3 Amrish Puri
+4 Anil Kapoor
+5 Ayushman Khurana
+6 Dharmendra
+7 Arshad Warsi
+8 Deepika Padukone
+9 Govinda
+10 Hrithik Roshan
+11 Irfan Khan
+12 Kajol
+13 Nawazuddin Siddique
+14 Rishi Kapoor
+15 Riteish Deshmukh
+16 Salman Khan
+17 Sanjay Dutt
+18 Shahrukh Khan
+19 Vidya Balan
+20 Empty
