@@ -1,7 +1,6 @@
 # ColabFiles
 
-
-#PLEASE READ THIS ONCE#
+PLEASE READ THIS ONCE
 
 This project ran successfully with no error during the time of creation but revisiting it now, the tensorflow versions have changed for which "No module named tensorflow.python" error pops up.
 
@@ -69,3 +68,11 @@ Step by step guide:
 
 
 *** The Celebrities on whom the model was trained can be found in celebrity&empty.txt file, if picture of anyone other than them is uploaded or your picture is clicked for processing, the result will be the Celebrity which resembles the most.***
+
+
+In depth details on the functions used in OldFRAS.py:
+
+	1) readLabels()- This function reads the label data from the text file using file handling. The labels or classes are automatically stored in a global list variable.
+	2) imageCapture()- This module uses OpenCV to access the camera and use it to save the image captured by the camera. The image is saved as “image.jpg” on the folder where the program and model have been saved. The image gets replaced every time the system saves an image, overwriting the previous image and saving memory from getting clogged due to the continuous image saving habit of the system.
+	3) imageProcessing()- The saved model is first loaded and the image saved is accessed by the system which later changes the dimensions and saves it in a NumPy array. The system thus converts every image into an array after which it fits it into the model to find the closest possibility of the image being in the model. After which it finds the maximum possibility of the subject in the model. The accuracy of the prediction can be set with a variable to make sure any prediction made is accurate enough to be considered as a record. The prediction percentage is then converted into the label stored according to the maximum probability of the subject. The function then calls dateTime and passes the prediction label.
+	4) dateTime(x)- This function takes the stored label, checks the system time, and then saves it into the excel sheet. The excel sheet will be edited or else it will be created with a name that is based on the date. The creation of a new CSV is done once daily and every time a new record is stored, all the old records are automatically stored above it so that there is no data loss of any kind. 
